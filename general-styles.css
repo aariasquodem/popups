@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  width: 100%;
+}
+
+#disabled {
+  z-index: 9;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(30, 34, 30, 0.708);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#popup {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 800px;
+  background: #fff;
+  padding: 24px 0;
+  margin: 8% auto;
+}
+
+#exit {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  font-size: 24px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 24px 16px auto;
+}
+
+#popup h3 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#popup p {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#popup a {
+  text-decoration: none;
+  color: #fff;
+  background: #808080;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 8px 48px;
+  margin: 16px auto 0 auto;
+}/*# sourceMappingURL=general-styles.css.map */
