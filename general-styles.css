@@ -86,7 +86,6 @@ body {
   position: relative;
   padding: 0;
   height: 360px;
-  background: url("./assets/hero-image.png") no-repeat center;
   background-size: cover;
 }
 
@@ -104,4 +103,10 @@ body {
   margin-left: auto;
   margin-right: 16px;
   margin-top: 16px;
+}
+
+.imagev2 {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=general-styles.css.map */

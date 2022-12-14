@@ -2,6 +2,7 @@ $( document ).ready(function() {
     if(document.cookie.indexOf("accept_terms" + "=") >= 0){
         $('#disabled').hide();
     };
+    $('#popup a.absolute-link').addClass('dynamic-class');
 });
 
 $('#exit').on('click', function(){
