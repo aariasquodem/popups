@@ -97,4 +97,11 @@ body {
   right: 0;
   margin-left: auto;
   margin-right: auto;
+}
+
+#exit.unset {
+  position: unset;
+  margin-left: auto;
+  margin-right: 16px;
+  margin-top: 16px;
 }/*# sourceMappingURL=general-styles.css.map */
