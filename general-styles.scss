@@ -79,3 +79,20 @@ body{
 .btn-img img{
     width: 100%;
 }
+
+#popup.pos-rel{
+    position: relative;
+    padding: 0;
+    height: 360px;
+    background: url('./version2/assets/generica.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.absolute-link{
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
