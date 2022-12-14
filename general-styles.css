@@ -25,39 +25,59 @@ body {
   width: 80%;
   max-width: 800px;
   background: #fff;
-  padding: 24px 0;
+  padding: 0 0 24px 0;
   margin: 8% auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 #exit {
   border: none;
   cursor: pointer;
-  background: transparent;
-  font-size: 24px;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  margin: 0 24px 16px auto;
+  background: #fff;
+  color: #5b6064;
+  font-size: 16px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  line-height: 16px;
+  border-radius: 50%;
 }
 
 #popup h3 {
   text-align: center;
-  margin-bottom: 0;
+  color: #4f6ded;
+  margin: 16px auto;
+  width: 80%;
+  line-height: 24px;
 }
 
 #popup p {
-  text-align: center;
+  text-align: justify;
   width: 80%;
   margin: 0 auto;
+  color: #5b6064;
+  line-height: 24px;
 }
 
 #popup a {
   text-decoration: none;
   color: #fff;
-  background: #808080;
+  background: #4f6ded;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   padding: 8px 48px;
   margin: 16px auto 0 auto;
+  border-radius: 25px;
+}
+
+.btn-img {
+  position: relative;
+}
+
+.btn-img img {
+  width: 100%;
 }/*# sourceMappingURL=general-styles.css.map */
