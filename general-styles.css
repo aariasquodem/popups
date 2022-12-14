@@ -80,6 +80,7 @@ body {
 
 .btn-img img {
   width: 100%;
+  height: auto;
 }
 
 #popup.pos-rel {
