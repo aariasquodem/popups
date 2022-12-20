@@ -51,7 +51,7 @@ body{
     color: #4f6ded;
     margin: 16px auto;
     width: 80%;
-    line-height: 24px;
+    line-height: 18px;
 }
 
 #popup p{
@@ -59,7 +59,6 @@ body{
     width: 80%;
     margin: 0 auto;
     color: #5b6064;
-    line-height: 24px;
 }
 
 #popup a{
@@ -109,3 +108,8 @@ body{
     object-fit: cover;
 }
 
+@media (max-height: 600px) and (max-width: 1024px) {
+    #popup{
+        width: 50%;
+    }
+}
