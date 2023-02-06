@@ -7,6 +7,6 @@ $( document ).ready(function() {
 
 $('#exit').on('click', function(){
     $('#disabled').hide();
-    document.cookie = `${window.location.pathname}=true; expires=${new Date(new Date().getTime()+1000*60*60*24*365).toGMTString()}; path=/`;
+    document.cookie = `${window.location.pathname}=true; expires=${new Date(new Date().getTime()+1000*60*60*24*365).toGMTString()}; path=${window.location.pathname}`;
     $('body header').css('z-index', '99');
 });
